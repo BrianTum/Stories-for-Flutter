@@ -116,6 +116,8 @@ class StoryCircle extends StatelessWidget {
             story[selectedIndex].name,
             style: storyCircleTextStyle ?? TextStyle(fontSize: 13),
           ),
+          SizedBox(height: 5),
+          Text("1 min ago"),
         ],
       ),
     );
